@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.grid-container {
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+  
+  background-color: rgb(255, 149, 0);
+  color: rgb(133, 75, 0);
+}
+
+
+.grand-parent-container , 
+.parent-container, 
+.child-container {
+  border: 1px solid rgb(255, 255, 255);
+
+  display: grid;
+  place-items: center;
+}
+
+
+.grand-parent-container {
+  width: 800px;
+  height: 300px;
+}
+
+.parent-container {  
+  width: 400px;
+  height: 150px;
+}
+
+.child-container {
+  width: 200px;
+  height: 80px;
+}

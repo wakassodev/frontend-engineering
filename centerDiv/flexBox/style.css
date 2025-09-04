@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grand-parent-container , 
+.parent-container, 
+.child-container {
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.grand-parent-container {
+  width: 800px;
+  height: 300px;
+}
+
+.parent-container {  
+  width: 400px;
+  height: 150px;
+}
+
+.child-container {
+  width: 200px;
+  height: 80px;
+}

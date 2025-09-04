@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Using the Position Absolute methode */
+.container {
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.grand-parent-container,
+.parent-container,
+.child-container {
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand-parent-container {
+  width: 800px;
+  height: 300px;
+}
+
+.parent-container {
+  width: 400px;
+  height: 150px;
+}
+
+.child-container {
+  width: 200px;
+  height: 80px;
+}

@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+
+  transform: translate(-50%, -50%);
+}
+
+.image-container img{
+  width: 100px;
+  height: 400px;
+  object-fit: cover;
+
+  overflow: hidden;
+  border-radius: 45%;
+
+  transition: width 0.4s ease, height 0.4s ease;
+
+  cursor: pointer;
+}
+
+.expand img {
+  width: 400px;
+  border-radius: 30px;
+  transition: width 0.4s ease, height 0.4s ease;
+}
